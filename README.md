@@ -1,11 +1,12 @@
 # Advent of Code 2025 in Rust
 
+Runner code comes from the excellent https://github.com/timvisee/advent-of-code-2024
+
 ```batch
 # Switch to day 1a, add input, and run it
 cd day01a
 cargo run --release
 
-# Runner copied from the excellent https://github.com/timvisee/advent-of-code-2024
 # or run everything in parallel
 cd ../runner
 cargo run --release --bin runner-par
@@ -14,3 +15,5 @@ cargo run --release --bin runner-par
 cd ../runner
 cargo run --release --bin bench
 ```
+
+
