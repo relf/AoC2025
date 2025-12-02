@@ -53,6 +53,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf0a07a401f374238ab8e2f11a104d2851bf9ce711ec69804834de8af45c7af"
 
 [[package]]
+name = "day01"
+version = "0.1.0"
+
+[[package]]
 name = "day01a"
 version = "0.1.0"
 
@@ -61,11 +65,7 @@ name = "day01b"
 version = "0.1.0"
 
 [[package]]
-name = "day02a"
-version = "0.1.0"
-
-[[package]]
-name = "day02b"
+name = "day02"
 version = "0.1.0"
 dependencies = [
  "divan",

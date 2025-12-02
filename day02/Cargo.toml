@@ -1,5 +1,5 @@
 [package]
-name = "day02b"
+name = "day02"
 version = "0.1.0"
 edition = "2024"
 
@@ -12,5 +12,5 @@ path = "src/lib.rs"
 divan = "0.1"
 
 [[bench]]
-name = "day02b"
+name = "day02"
 harness = false
