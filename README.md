@@ -8,7 +8,7 @@ https://adventofcode.com
 
 ```batch
 # Switch to a given day and run it
-cd day01a
+cd day01
 
 # Ensure the presence of input.txt file in the directory
 # copied from https://adventofcode.com/2025/day/1
