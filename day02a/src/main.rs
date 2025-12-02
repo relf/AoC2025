@@ -32,7 +32,7 @@ fn run(input: &str) -> i64 {
 
 fn main() {
     let result = run(include_str!("../input.txt"));
-    assert_eq!(result, 34826702005);
+    println!("Result: {}", result);
 }
 
 #[cfg(test)]

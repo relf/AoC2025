@@ -32,7 +32,7 @@ fn run(input: &str) -> i32 {
 
 fn main() {
     let passwd = run(include_str!("../input.txt"));
-    assert_eq!(passwd, 6907);
+    println!("Password: {}", passwd)
 }
 
 #[cfg(test)]
