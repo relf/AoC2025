@@ -1,4 +1,4 @@
-pub fn run(input: &str) -> i32 {
+fn run(input: &str) -> i32 {
     let mut passwd = 0;
     let _ = input
         .lines()
@@ -30,7 +30,7 @@ pub fn run(input: &str) -> i32 {
     passwd
 }
 
-pub fn main() {
+fn main() {
     let passwd = run(include_str!("../input.txt"));
     assert_eq!(passwd, 6907);
 }
