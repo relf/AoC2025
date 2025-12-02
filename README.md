@@ -11,7 +11,7 @@ https://adventofcode.com
 cd day01
 
 # Ensure the presence of input.txt file in the directory
-# copied from https://adventofcode.com/2025/day/1
+# saved from https://adventofcode.com/2025/day/1
 
 # Run 
 cargo run --release
