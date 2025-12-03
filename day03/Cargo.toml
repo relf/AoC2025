@@ -1,0 +1,16 @@
+[package]
+name = "day03"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+
+[dev-dependencies]
+divan = "0.1"
+
+[[bench]]
+name = "day03"
+harness = false

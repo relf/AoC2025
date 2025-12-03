@@ -57,15 +57,14 @@ name = "day01"
 version = "0.1.0"
 
 [[package]]
-name = "day01a"
-version = "0.1.0"
-
-[[package]]
-name = "day01b"
-version = "0.1.0"
-
-[[package]]
 name = "day02"
+version = "0.1.0"
+dependencies = [
+ "divan",
+]
+
+[[package]]
+name = "day03"
 version = "0.1.0"
 dependencies = [
  "divan",
