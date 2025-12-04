@@ -1,13 +1,17 @@
 [package]
-name = "day01"
+name = "day04"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+path = "src/lib.rs"
+
 [dependencies]
+ndarray = "0.17"
 
 [dev-dependencies]
 divan = "0.1"
 
 [[bench]]
-name = "day01"
+name = "day04"
 harness = false
